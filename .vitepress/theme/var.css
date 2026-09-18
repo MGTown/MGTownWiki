@@ -1,14 +1,22 @@
 /**
  * MGTown 文档站主题变量覆盖
  * 必须在 @theojs/lumen/style 之后引入才会生效
+ *
+ * 配色原则（2026-09-18 第八轮）：全站不使用暖色调（红 / 橙 / 琥珀）。
+ * 品牌色取天蓝（OKLCH 色相 258°），图标色相全部落在 160°～330° 的冷色区间。
  */
 
 :root {
-  /* ---------- 品牌配色：暖珊瑚，呼应毛怪小镇 Logo 的奶油蜜桃色调 ---------- */
-  --vp-c-brand-1: #d97757;
-  --vp-c-brand-2: #e08b6d;
-  --vp-c-brand-3: #eaa183;
-  --vp-c-brand-soft: rgba(217, 119, 87, 0.14);
+  /* ---------- 站点品牌色：天蓝 ----------
+   * 这是全站唯一需要维护的品牌色入口 —— 导航 active、侧边栏 active、
+   * 行内代码（--vp-code-color）、正文链接、首页标题、品牌按钮、
+   * 以及 lumen 全部组件名（Card / Links / Pill / BoxCube / CopyText / Underline）
+   * 都由它派生。
+   * 三级色阶按 OKLCH 同色相生成，逐级锁定对白底对比度：5.96 / 5.19 / 4.53。 */
+  --vp-c-brand-1: #055fcd;
+  --vp-c-brand-2: #1669d8;
+  --vp-c-brand-3: #2473e3;
+  --vp-c-brand-soft: rgba(5, 95, 205, 0.14);
 
   /* ---------- 首页 actions 按钮图标：沿用站点 Logo ---------- */
   --lm-button-logo: url('/logo.png');
@@ -20,36 +28,38 @@
   --lm-Underline-bg: var(--vp-c-brand-1);
 
   /* ---------- 图标配色令牌（浅色主题） ---------- */
-  /* 与首页 features 的三个既有色（#d97757 / #81b29a / #3d8bfd）保持同一调性 */
-  --mg-c-brand: #d97757;
+  --mg-c-brand: #1a6fe0;
   --mg-c-blue: #3d8bfd;
   --mg-c-green: #6aa88f;
   --mg-c-teal: #2f9e8f;
   --mg-c-cyan: #2a9dbf;
-  --mg-c-amber: #d99b2b;
-  --mg-c-orange: #e0854a;
-  --mg-c-red: #d96459;
-  --mg-c-pink: #d96f9e;
-  --mg-c-purple: #8b6fd6;
   --mg-c-indigo: #5e72d6;
+  --mg-c-purple: #8b6fd6;
+  --mg-c-pink: #b95fc4;
   --mg-c-slate: #707886;
   --mg-c-qq: #12b7f5;
 }
 
-/* .dark 与 :root 同权重，靠源码顺序覆盖，故必须写在 :root 之后 */
+/* .dark 与 :root 同权重，靠源码顺序覆盖，故必须写在 :root 之后。
+ * 同时它也在 lumen 的 .dark（品牌色为黄色）之后，故能一并盖掉。 */
 .dark {
-  /* ---------- 图标配色令牌（深色主题：整体提亮、略降饱和） ---------- */
-  --mg-c-brand: #e9a184;
+  /* ---------- 品牌色：深色下明暗反转，brand-1 最亮、brand-3 最深 ----------
+   * 这是 VitePress 原生规律：文字取最亮的 brand-1，
+   * 按钮底色取最深的 brand-3（白字压其上仍保持 4.53:1）。 */
+  --vp-c-brand-1: #6fbfff;
+  --vp-c-brand-2: #51a0ff;
+  --vp-c-brand-3: #2473e3;
+  --vp-c-brand-soft: rgba(111, 191, 255, 0.16);
+
+  /* ---------- 图标配色令牌（深色主题：整体提亮） ---------- */
+  --mg-c-brand: #50a2ff;
   --mg-c-blue: #6ea8fe;
   --mg-c-green: #96cfb6;
   --mg-c-teal: #5cc4b6;
   --mg-c-cyan: #5cc0dd;
-  --mg-c-amber: #e8bb5f;
-  --mg-c-orange: #f0a978;
-  --mg-c-red: #ee8a80;
-  --mg-c-pink: #ec95b8;
-  --mg-c-purple: #b097ec;
   --mg-c-indigo: #8d9dec;
+  --mg-c-purple: #b097ec;
+  --mg-c-pink: #d87ce3;
   --mg-c-slate: #9ba4b2;
   --mg-c-qq: #5ac9f6;
 }
@@ -86,37 +96,28 @@
      2. 新增菜单项无需改动 config 里的 HTML，在此追加一行即可（未收录的图标
         继续继承文字颜色，天然有兜底）。
    颜色取值集中在 :root / .dark 的 --mg-c-* 令牌，明暗主题各一套。
+   色相全部落在 160°～330°，无暖色。
    ========================================================================== */
 
-/* 品牌主色 —— 主页 */
+/* 天蓝 —— 站点主页 */
 .mg-ico[icon='mdi:home-variant-outline'] {
   color: var(--mg-c-brand);
 }
 
-/* 蓝 —— 文档、下载、面板类 */
+/* 蓝 —— 文档、面板、下载 */
 .mg-ico[icon='mdi:book-open-page-variant-outline'],
 .mg-ico[icon='mdi:book-open-variant'],
-.mg-ico[icon='mdi:cloud-download-outline'],
-.mg-ico[icon='mdi:view-dashboard-outline'] {
+.mg-ico[icon='mdi:book-education-outline'],
+.mg-ico[icon='mdi:view-dashboard-outline'],
+.mg-ico[icon='mdi:cloud-download-outline'] {
   color: var(--mg-c-blue);
 }
 
-/* 紫 —— 插件扩展与附魔 */
-.mg-ico[icon='mdi:puzzle-outline'],
-.mg-ico[icon='mdi:auto-fix'] {
-  color: var(--mg-c-purple);
-}
-
-/* 青绿 —— 客户端外观设置 */
-.mg-ico[icon='mdi:palette-swatch-outline'] {
-  color: var(--mg-c-teal);
-}
-
-/* 琥珀 —— 社区、交易、日光 */
-.mg-ico[icon='mdi:account-group-outline'],
-.mg-ico[icon='mdi:storefront-outline'],
+/* 青碧 —— 客户端外观（皮肤、材质包、光影同属一个分区，故同色） */
+.mg-ico[icon='mdi:palette-swatch-outline'],
+.mg-ico[icon='mdi:package-variant-closed'],
 .mg-ico[icon='mdi:weather-sunset'] {
-  color: var(--mg-c-amber);
+  color: var(--mg-c-teal);
 }
 
 /* 绿 —— 保护、通行、欢迎 */
@@ -126,32 +127,33 @@
   color: var(--mg-c-green);
 }
 
-/* 天蓝 —— 回档、全息投影 */
+/* 天青 —— 工具与经营：回档、全息、商店、性能 */
 .mg-ico[icon='mdi:backup-restore'],
-.mg-ico[icon='mdi:projector'] {
+.mg-ico[icon='mdi:projector'],
+.mg-ico[icon='mdi:storefront-outline'],
+.mg-ico[icon='mdi:speedometer'] {
   color: var(--mg-c-cyan);
 }
 
-/* 橙 —— 材质包 */
-.mg-ico[icon='mdi:package-variant-closed'] {
-  color: var(--mg-c-orange);
-}
-
-/* 靛蓝 —— 坐标与空间 */
+/* 靛蓝 —— 社区与空间：社区、传送、坐姿 */
+.mg-ico[icon='mdi:account-group-outline'],
+.mg-ico[icon='mdi:account-group'],
 .mg-ico[icon='mdi:map-marker-radius'],
 .mg-ico[icon='mdi:seat-outline'] {
   color: var(--mg-c-indigo);
 }
 
-/* 粉 —— 音乐娱乐与皮肤 */
+/* 紫 —— 插件扩展、附魔、战斗 */
+.mg-ico[icon='mdi:puzzle-outline'],
+.mg-ico[icon='mdi:auto-fix'],
+.mg-ico[icon='mdi:sword-cross'] {
+  color: var(--mg-c-purple);
+}
+
+/* 品红 —— 音乐娱乐与皮肤头像 */
 .mg-ico[icon='mdi:music-note'],
 .mg-ico[icon='mdi:account-box-outline'] {
   color: var(--mg-c-pink);
-}
-
-/* 红 —— 战斗（mcMMO） */
-.mg-ico[icon='mdi:sword-cross'] {
-  color: var(--mg-c-red);
 }
 
 /* 中性灰 —— 第三方品牌图标（GitHub） */

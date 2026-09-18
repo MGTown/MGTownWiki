@@ -36,7 +36,7 @@ export default defineConfig({
 
   head: [
     ["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
-    ["meta", { name: "theme-color", content: "#d97757" }],
+    ["meta", { name: "theme-color", content: "#055fcd" }],
   ],
 
   // lumen 使用 <iconify-icon> 自定义元素，需告知 Vue 编译器不要当作组件解析
