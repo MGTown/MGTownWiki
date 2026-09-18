@@ -1,5 +1,13 @@
-.vitepress/cache
-.vitepress/dist
 node_modules
 package-lock.json
-docs
+
+# 构建产物与缓存（站点根为项目根，srcDir 指向 docs）
+.vitepress/cache
+.vitepress/dist
+.vitepress/.temp
+
+# 本地构建日志与资料归档目录，不纳入版本管理
+run-file
+
+# workbuddy 相关文件
+.workbuddy

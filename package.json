@@ -1,11 +1,18 @@
 {
+  "name": "mgtown-wiki",
+  "private": true,
+  "type": "module",
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.16"
+    "@theojs/lumen": "^7.0.1",
+    "@types/node": "^26.6.1",
+    "typescript": "^7.0.2",
+    "vitepress": "^2.0.0-alpha.20",
+    "vue": "^3.5.42"
   },
-
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "typecheck": "tsc --noEmit"
   }
 }

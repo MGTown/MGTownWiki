@@ -1,7 +1,8 @@
 ---
-title: 如何使用圈地插件
+title: 圈地插件
 lang: zh-CN
 ---
+
 # 什么是圈地?
 
 圈地是可以让玩家自行创建领地并用来保护自己的家，而不用去劳烦服务器内的OP（管理员）们。而且圈地还支持更多不同的保护类型，比如不
@@ -87,8 +88,8 @@ lang: zh-CN
 
 `/res pset [PlayerName] [flag] [true/false/remove]` 给不同的玩家上设置标志
 
-`/res set [标志] [true/false/remove]` 在不同的领地内设置标志 *(比如说我想让其他人在我的领地里使用箱子什么的，就可以使用**/
-res set use t**←改指令表示设置use（使用权限）为允许(t)或者(true)[同样，(false)可以简写为(f)]）*
+`/res set [标志] [true/false/remove]` 在不同的领地内设置标志 _(比如说我想让其他人在我的领地里使用箱子什么的，就可以使用**/
+res set use t**←改指令表示设置use（使用权限）为允许(t)或者(true)[同样，(false)可以简写为(f)]）_
 
 `/res setall [标志] [true/false/remove]` 将标志设置应用到所有世界的所有您所有的领地当中。
 
