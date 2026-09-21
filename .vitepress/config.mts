@@ -36,6 +36,21 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  // 自定义容器（> [!NOTE] / [!TIP] / [!DANGER] 等）的标题本地化。
+  // VitePress 内置文案为英文（NOTE / TIP / DANGER…）且不随 lang 切换，需在此显式覆盖。
+  markdown: {
+    container: {
+      tipLabel: "提示",
+      infoLabel: "信息",
+      warningLabel: "警告",
+      dangerLabel: "危险",
+      noteLabel: "注意",
+      importantLabel: "重要",
+      cautionLabel: "小心",
+      detailsLabel: "详细信息",
+    },
+  },
+
   head: [
     ["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
     ["meta", { name: "theme-color", content: "#055fcd" }],

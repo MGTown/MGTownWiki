@@ -1,3 +1,8 @@
+---
+title: 点歌
+lang: zh-CN
+---
+
 # 点歌插件（Allmusic3）
 
 ## 基础点歌与搜索指令
@@ -38,7 +43,7 @@
 
 ## 歌词与 HUD 显示指令
 
-`/music hud enable <类型>`开启 HUD 显示（Lyric= 歌词，Info= 歌曲信息）
+`/music hud enable <类型>`开启 HUD 显示（Lyric=歌词，Info=歌曲信息）
 
 `/music hud disable <类型>`关闭 HUD 显示
 
@@ -48,25 +53,25 @@
 
 `/music hud reset <类型>`重置 HUD 位置为默认值
 
-`/music hud enable`启用/关闭全部界面；
+`/music hud enable`启用/关闭全部界面
 
-`/music hud reset`重置全部界面；
+`/music hud reset`重置全部界面
 
-`/music hud [位置] enable`启用关闭单一界面；
+`/music hud [位置] enable`启用/关闭单一界面
 
-`/music hud [位置] pos[x][y]`设置某个界面的位置；
+`/music hud [位置] pos [x] [y]`设置某个界面的位置
 
-`/music hud [位置] dir[对齐方式]`设置某个界面的对齐方式；
+`/music hud [位置] dir [对齐方式]`设置某个界面的对齐方式
 
-`/music hud [位置] color[颜色HEX]`设置某个界面的颜色；
+`/music hud [位置] color [颜色HEX]`设置某个界面的颜色
 
-`/music hud [位置] reset`重置单一界面；
+`/music hud [位置] reset`重置单一界面
 
-`/music hud pic size [尺寸]`设置图片尺寸;
+`/music hud pic size [尺寸]`设置图片尺寸
 
-`/music hud pic rotate [开关]`设置图片旋转模式；
+`/music hud pic rotate [开关]`设置图片旋转模式
 
-`/music hud pic speed [数值]`设置图片旋转速度。
+`/music hud pic speed [数值]`设置图片旋转速度
 
 `/music lyric`手动刷新歌词显示（解决卡顿问题）
 
@@ -84,4 +89,4 @@
 
 `/music playlist add <歌单名>`将预设歌单加入播放队列（需在 config.yml 中定义）
 
-## 相关网站：https://www.mcmod.cn/class/14959.html
+> 相关网站：https://www.mcmod.cn/class/14959.html

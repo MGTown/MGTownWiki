@@ -106,52 +106,52 @@
 
 /* 蓝 —— 文档、面板、下载 */
 .mg-ico[icon='mdi:book-open-page-variant-outline'],
-.mg-ico[icon='mdi:book-open-variant'],
 .mg-ico[icon='mdi:book-education-outline'],
 .mg-ico[icon='mdi:view-dashboard-outline'],
 .mg-ico[icon='mdi:cloud-download-outline'] {
   color: var(--mg-c-blue);
 }
 
-/* 青碧 —— 客户端外观（皮肤、材质包、光影同属一个分区，故同色） */
+/* 青碧 —— 客户端相关（皮肤、材质包、光影同属一个分区，故同色） */
 .mg-ico[icon='mdi:palette-swatch-outline'],
 .mg-ico[icon='mdi:package-variant-closed'],
 .mg-ico[icon='mdi:weather-sunset'] {
   color: var(--mg-c-teal);
 }
 
-/* 绿 —— 保护、通行、欢迎 */
+/* 绿 —— 保护、通行、入门 */
 .mg-ico[icon='mdi:home-lock'],
-.mg-ico[icon='mdi:door-open'],
-.mg-ico[icon='mdi:human-greeting-variant'] {
+.mg-ico[icon='mdi:human-greeting-variant'],
+.mg-ico[icon='mdi:rocket-launch-outline'] {
   color: var(--mg-c-green);
 }
 
-/* 天青 —— 工具与经营：回档、全息、商店、性能 */
-.mg-ico[icon='mdi:backup-restore'],
-.mg-ico[icon='mdi:projector'],
+/* 天青 —— 玩法与经营：玩法、商店、方块审计、货币、性能 */
+.mg-ico[icon='mdi:gamepad-variant-outline'],
 .mg-ico[icon='mdi:storefront-outline'],
+.mg-ico[icon='mdi:backup-restore'],
+.mg-ico[icon='mdi:circle-multiple-outline'],
 .mg-ico[icon='mdi:speedometer'] {
   color: var(--mg-c-cyan);
 }
 
-/* 靛蓝 —— 社区与空间：社区、传送、坐姿 */
+/* 靛蓝 —— 社区、空间与身份：社区、传送、账号 */
 .mg-ico[icon='mdi:account-group-outline'],
 .mg-ico[icon='mdi:account-group'],
 .mg-ico[icon='mdi:map-marker-radius'],
-.mg-ico[icon='mdi:seat-outline'] {
+.mg-ico[icon='mdi:account-key-outline'] {
   color: var(--mg-c-indigo);
 }
 
-/* 紫 —— 插件扩展、附魔、战斗 */
-.mg-ico[icon='mdi:puzzle-outline'],
-.mg-ico[icon='mdi:auto-fix'],
-.mg-ico[icon='mdi:sword-cross'] {
+/* 紫 —— 指令与扩展：指令分组、附魔 */
+.mg-ico[icon='mdi:console-line'],
+.mg-ico[icon='mdi:auto-fix'] {
   color: var(--mg-c-purple);
 }
 
-/* 品红 —— 音乐娱乐与皮肤头像 */
+/* 品红 —— 娱乐与外观：点歌、小游戏、皮肤头像 */
 .mg-ico[icon='mdi:music-note'],
+.mg-ico[icon='mdi:dice-multiple-outline'],
 .mg-ico[icon='mdi:account-box-outline'] {
   color: var(--mg-c-pink);
 }

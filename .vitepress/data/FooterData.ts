@@ -15,9 +15,9 @@ export const Footer_Data: FooterData = {
       icon: { icon: 'mdi:compass-outline', color: 'var(--mg-c-brand)' },
       title: '站内导航',
       links: [
-        { name: '玩家文档总览', link: '/guide/' },
-        { name: '初次游玩毛怪小镇', link: '/guide/first-join' },
-        { name: '插件使用教程', link: '/guide/plugins/residence' }
+        { name: '小镇简介', link: '/guide/' },
+        { name: '首次游玩', link: '/guide/first-join' },
+        { name: '圈地与保护', link: '/guide/commands/residence' }
       ]
     },
     {

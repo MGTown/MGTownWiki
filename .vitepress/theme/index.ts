@@ -11,6 +11,7 @@ import '@theojs/lumen/style'
 import './var.css'
 
 import { Footer_Data } from '../data/FooterData'
+import PasswordValidator from './components/PasswordValidator.vue'
 
 export default {
   extends: DefaultTheme,
@@ -30,5 +31,8 @@ export default {
     app.component('Copy', lm.CopyText)
     app.component('BoxCube', lm.BoxCube)
     app.component('Underline', lm.Underline)
+
+    // 本站自研组件（Markdown 中可直接书写 <PasswordValidator />）
+    app.component('PasswordValidator', PasswordValidator)
   }
 }

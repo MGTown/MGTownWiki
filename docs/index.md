@@ -15,13 +15,13 @@ hero:
   actions:
     - theme: brand logo
       text: 加入QQ群聊
-      link: 'https://qm.qq.com/q/JSzjMcoNKq'
+      link: "https://qm.qq.com/q/JSzjMcoNKq"
     - theme: alt
-      text: 打开玩家文档
+      text: 快速开始
       link: /guide/
     - theme: alt
       text: 下载老地图
-      link: 'https://pan.baidu.com/s/1sLgTGYhKO_MWxz89Kg6OGA?pwd=0515'
+      link: "https://pan.baidu.com/s/1sLgTGYhKO_MWxz89Kg6OGA?pwd=0515"
 
 features:
   - title: '<iconify-icon class="mg-ico" icon="mdi:account-group"></iconify-icon>和谐友爱的玩家社区'
