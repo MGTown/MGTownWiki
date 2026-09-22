@@ -18,7 +18,7 @@ hero:
       link: "https://qm.qq.com/q/JSzjMcoNKq"
     - theme: alt
       text: 快速开始
-      link: /guide/quickstart
+      link: /guide/quickstart/
     - theme: alt
       text: 下载老地图
       link: "https://pan.baidu.com/s/1sLgTGYhKO_MWxz89Kg6OGA?pwd=0515"

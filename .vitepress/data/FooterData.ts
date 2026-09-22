@@ -15,9 +15,9 @@ export const Footer_Data: FooterData = {
       icon: { icon: "mdi:compass-outline", color: "var(--mg-c-brand)" },
       title: "站内导航",
       links: [
-        { name: "小镇简介", link: "/guide/quickstart" },
-        { name: "首次游玩", link: "/guide/quickstart/first-join" },
+        { name: "小镇简介", link: "/guide/quickstart/" },
         { name: "账号与密码", link: "/guide/quickstart/account" },
+        { name: "首次游玩", link: "/guide/quickstart/first-join" },
       ],
     },
     {

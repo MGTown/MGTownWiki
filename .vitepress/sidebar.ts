@@ -28,15 +28,15 @@ const quickStart: DefaultTheme.SidebarItem[] = [
     items: [
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:book-open-page-variant-outline"></iconify-icon>小镇简介',
-        link: "/guide/quickstart",
+        link: "/guide/quickstart/",
+      },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:account-key-outline"></iconify-icon>账号与密码',
+        link: "/guide/quickstart/account",
       },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:human-greeting-variant"></iconify-icon>首次游玩',
         link: "/guide/quickstart/first-join",
-      },
-      {
-        text: '<iconify-icon class="mg-ico" icon="mdi:account-key-outline"></iconify-icon>账号密码',
-        link: "/guide/quickstart/account",
       },
     ],
   },
@@ -148,7 +148,7 @@ const client: DefaultTheme.SidebarItem[] = [
  * 新增分组页面时：把目录加进来即可，无需改动其他分组。
  */
 const sidebar: DefaultTheme.SidebarMulti = {
-  "/guide/quickstart": quickStart,
+  "/guide/quickstart/": quickStart,
   "/guide/commands/": commands,
   "/guide/gameplay/": gameplay,
   "/guide/client/": client,

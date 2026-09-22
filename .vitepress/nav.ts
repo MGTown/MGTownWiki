@@ -14,7 +14,7 @@ export default [
   },
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:rocket-launch-outline"></iconify-icon>快速开始',
-    link: "/guide/quickstart",
+    link: "/guide/quickstart/",
   },
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:console-line"></iconify-icon>指令相关',
