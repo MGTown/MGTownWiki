@@ -1,7 +1,10 @@
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vitepress";
-import nav from "./nav";
-import sidebar from "./sidebar";
+// 相对导入必须带 .ts 扩展名：Vite 未来的默认 configLoader 为 "native"（Node 原生
+// 类型剥离 + ESM 解析），不做扩展名补全，缺扩展名会直接加载失败。
+// 为此 tsconfig 已开启 allowImportingTsExtensions（配合 noEmit: true）。
+import nav from "./nav.ts";
+import sidebar from "./sidebar.ts";
 
 /**
  * 毛怪小镇玩家文档站配置

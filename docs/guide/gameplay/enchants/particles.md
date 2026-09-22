@@ -1,51 +1,55 @@
 # 粒子
-黄色词条，位于武器处在攻击生物时产生粒子，位于工具处破坏方块时产生粒子，位于鞘翅处飞行时鞘翅两侧产生粒子。非指令情况下一个工具只能获得一个黄色词条
 
-### 音符粒子
+黄色词条，位于工具处在攻击生物或破坏方块时在被攻击的生物或方块处产生粒子，位于弓、弩、三叉戟处时还会随弹道产生粒子，位于长矛处时还会在冲锋时留下轨迹，位于鞘翅处飞行时鞘翅两侧产生粒子。
 
-| 属性   | 值                                     |
-| :----- | :------------------------------------- |
-| **位置** | 剑、斧、镐、铲、锄、重锤、三叉戟、弓、弩、鱼竿、鞘翅 |
-| **描述** | 附加音符粒子                           |
-| **效果** | 附加音符粒子                           |
+| 字段     | 内容                                                           |
+| :------- | :------------------------------------------------------------- |
+| 位置     | 剑、矛、斧、镐、铲、锄、重锤、三叉戟、弓、弩、钓竿、剪刀、鞘翅 |
+| 等级     | 1                                                              |
+| 冲突     | 生存模式下粒子附魔相互冲突                                     |
+| 描述     | 附加`{particle}`粒子                                           |
+| 获取途径 | 所有途径均可获取                                               |
 
-### 可替换粒子列表
-*   `note` 音符
-*   `enchant` 附魔文字
-*   `heart` 爱心
-*   `damage_indicator` 黑心
-*   `angry_villager` 愤怒村民
-*   `happy_villager` 绿宝石
-*   `cherry_leaves` 樱花树叶
-*   `pale_oak_leaves` 苍白树叶
-*   `sneeze` 瘴气
-*   `dragon_breath` 龙息
-*   `smoke` 黑烟
-*   `clou` 云朵
-*   `poof` 硝烟
-*   `crimson_spore` 绯红
-*   `warped_spore` 玄武岩
-*   `small_gust` 小旋风
-*   `small_flame` 火把
-*   `soul_fire_flame` 灵魂火把
-*   `flame` 火焰
-*   `lava` 岩浆
-*   `squid_ink` 鱿鱼墨水
-*   `sneeze` 发光鱿鱼墨水
-*   `item_slime` 史莱姆
-*   `item_snowball` 雪球
-*   `trial_spawner_detection` 试炼之火
-*   `trial_spawner_detection_ominous` 诅咒之火
-*   `raid_omen` 红骷髅
-*   `trial_omen` 蓝骷髅
-*   `sculk_soul` 灵魂
-*   `soul` 灵魂沙
-*   `nautilus` 潮涌核心
-*   `sculk_charge_pop` 幽匿
-*   `sonic_boom` 音爆
-*   `totem_of_undying` 不死图腾
-*   `electric_spark` 星光
-*   `end_rod` 末地烛
-*   `firework` 烟花火箭
-*   `effect` 药水
-*   `spore_blossom_air` 孢子花
+下面为所有可替换粒子，替换`{particle}`内容
+
+| 附魔ID                                     | 名称             |
+| :----------------------------------------- | :--------------- |
+| `particle_angry_villager`                  | 愤怒村民粒子     |
+| `particle_cherry_leaves`                   | 樱花树叶粒子     |
+| `particle_cloud`                           | 云朵粒子         |
+| `particle_crimson_spore`                   | 绯红孢子粒子     |
+| `particle_damage_indicator`                | 黑心粒子         |
+| `particle_dragon_breath`                   | 龙息粒子         |
+| `particle_effect`                          | 药水效果粒子     |
+| `particle_electric_spark`                  | 星光粒子         |
+| `particle_enchant`                         | 附魔文字粒子     |
+| `particle_end_rod`                         | 末地烛粒子       |
+| `particle_firework`                        | 烟花火箭粒子     |
+| `particle_flame`                           | 火焰粒子         |
+| `particle_glow_squid_ink`                  | 发光鱿鱼墨水粒子 |
+| `particle_happy_villager`                  | 绿宝石村民粒子   |
+| `particle_heart`                           | 爱心粒子         |
+| `particle_item_slime`                      | 史莱姆粒子       |
+| `particle_item_snowball`                   | 雪球粒子         |
+| `particle_lava`                            | 岩浆粒子         |
+| `particle_nautilus`                        | 潮涌核心粒子     |
+| `particle_note`                            | 音符粒子         |
+| `particle_pale_oak_leaves`                 | 苍白树叶粒子     |
+| `particle_poof`                            | 硝烟粒子         |
+| `particle_raid_omen`                       | 红骷髅粒子       |
+| `particle_sculk_charge_pop`                | 幽匿电荷爆发粒子 |
+| `particle_sculk_soul`                      | 幽匿灵魂粒子     |
+| `particle_small_flame`                     | 小火把粒子       |
+| `particle_small_gust`                      | 小旋风粒子       |
+| `particle_smoke`                           | 黑烟粒子         |
+| `particle_sneeze`                          | 瘴气粒子         |
+| `particle_sonic_boom`                      | 音爆粒子         |
+| `particle_soul`                            | 灵魂沙粒子       |
+| `particle_soul_fire_flame`                 | 灵魂火把火焰粒子 |
+| `particle_spore_blossom_air`               | 孢子花空气粒子   |
+| `particle_squid_ink`                       | 鱿鱼墨水粒子     |
+| `particle_totem_of_undying`                | 不死图腾粒子     |
+| `particle_trial_omen`                      | 蓝骷髅粒子       |
+| `particle_trial_spawner_detection`         | 试炼之火粒子     |
+| `particle_trial_spawner_detection_ominous` | 诅咒之火粒子     |
+| `particle_warped_spore`                    | 诡异孢子粒子     |

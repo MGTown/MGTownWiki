@@ -12,6 +12,9 @@
 
     "strict": true,
     "noEmit": true,
+    // 允许导入路径带 .ts 扩展名（config.mts 里 import "./nav.ts" 需要）。
+    // 该选项仅在 noEmit / emitDeclarationOnly 下可用，本项目为纯类型检查，符合。
+    "allowImportingTsExtensions": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

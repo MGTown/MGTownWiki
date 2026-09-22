@@ -77,7 +77,7 @@ export default [
           },
           {
             text: "魔咒",
-            link: "/guide/gameplay/enchants/magic-enchants",
+            link: "/guide/gameplay/enchants/spell",
           },
           {
             text: "附魔",
