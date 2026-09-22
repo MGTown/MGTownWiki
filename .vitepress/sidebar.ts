@@ -1,33 +1,53 @@
 /**
- * 侧边栏（2026-09-21 重构）
+ * 侧边栏
  *
- * 四组：快速开始 / 指令相关 / 玩法相关 / 客户端相关。
- * 前三组的一级分组图标同时出现在顶部导航的下拉里，颜色由 var.css 统一控制。
- * 「更多附魔」为多页图鉴，保留二级折叠结构。
+ * VitePress 的对象式 sidebar 按「路径前缀最长匹配」选组：内部先把键按 `/` 段数
+ * 降序排序，再取第一个 `path.startsWith(key)` 命中（client/theme-default/support/
+ * sidebar.js 的 getSidebar）。故键必须写成带结尾斜杠的目录形式，且匹配的是
+ * 页面相对 srcDir 的路径（如 /guide/commands/teleport.md）。
+ *
+ * 分组映射：
+ *   /guide/quick/**     → 快速开始
+ *   /guide/commands/**  → 指令相关
+ *   /guide/gameplay/**  → 玩法相关
+ *   /guide/client/**    → 客户端相关
+ *
+ * 副作用（符合预期）：上/下一篇（docFooter）同样按本表取组，因此只在组内串联，
+ * 不再跨组跳转。
+ *
+ * 图标统一写 <iconify-icon class="mg-ico" icon="mdi:xxx">，颜色由 theme/var.css
+ * 的 [icon='…'] 属性选择器统一控制（含明暗两套）；此处只写图标名，不写死颜色。
  */
-export default [
+import type { DefaultTheme } from "vitepress";
+
+/** 快速开始：小镇简介 + 首次游玩 */
+const quickStart: DefaultTheme.SidebarItem[] = [
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:rocket-launch-outline"></iconify-icon>快速开始',
     collapsed: false,
     items: [
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:book-open-page-variant-outline"></iconify-icon>小镇简介',
-        link: "/guide/",
+        link: "/guide/quickstart",
       },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:human-greeting-variant"></iconify-icon>首次游玩',
-        link: "/guide/first-join",
+        link: "/guide/quickstart/first-join",
+      },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:account-key-outline"></iconify-icon>账号密码',
+        link: "/guide/quickstart/account",
       },
     ],
   },
+];
+
+/** 指令相关：与 nav「指令相关」下拉完全同序 */
+const commands: DefaultTheme.SidebarItem[] = [
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:console-line"></iconify-icon>指令相关',
     collapsed: false,
     items: [
-      {
-        text: '<iconify-icon class="mg-ico" icon="mdi:account-key-outline"></iconify-icon>账号密码',
-        link: "/guide/commands/account",
-      },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:map-marker-radius"></iconify-icon>传送',
         link: "/guide/commands/teleport",
@@ -54,6 +74,10 @@ export default [
       },
     ],
   },
+];
+
+/** 玩法相关：「更多附魔」为多页图鉴，保留二级折叠结构 */
+const gameplay: DefaultTheme.SidebarItem[] = [
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:gamepad-variant-outline"></iconify-icon>玩法相关',
     collapsed: false,
@@ -95,6 +119,10 @@ export default [
       },
     ],
   },
+];
+
+/** 客户端相关：皮肤 / 材质包 / 光影 */
+const client: DefaultTheme.SidebarItem[] = [
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:palette-swatch-outline"></iconify-icon>客户端相关',
     collapsed: false,
@@ -114,3 +142,16 @@ export default [
     ],
   },
 ];
+
+/**
+ * 键的书写顺序不影响匹配（运行时按 `/` 段数重排），此处按目录层级排列便于阅读。
+ * 新增分组页面时：把目录加进来即可，无需改动其他分组。
+ */
+const sidebar: DefaultTheme.SidebarMulti = {
+  "/guide/quickstart": quickStart,
+  "/guide/commands/": commands,
+  "/guide/gameplay/": gameplay,
+  "/guide/client/": client,
+};
+
+export default sidebar;

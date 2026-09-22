@@ -1,8 +1,7 @@
 /**
- * 顶部导航（2026-09-21 重构）
+ * 顶部导航
  *
- * 分组规则：主页 / 指令相关 / 玩法相关 / 客户端相关 / 社区。
- * 「快速开始」只在侧边栏出现，不进顶部导航。
+ * 分组规则：主页 / 快速开始 / 指令相关 / 玩法相关 / 客户端相关 / 社区。
  *
  * 图标统一写 <iconify-icon class="mg-ico" icon="mdi:xxx">，颜色由
  * theme/var.css 的 [icon='…'] 属性选择器统一指定（含明暗两套），
@@ -14,12 +13,12 @@ export default [
     link: "/",
   },
   {
+    text: '<iconify-icon class="mg-ico" icon="mdi:rocket-launch-outline"></iconify-icon>快速开始',
+    link: "/guide/quickstart",
+  },
+  {
     text: '<iconify-icon class="mg-ico" icon="mdi:console-line"></iconify-icon>指令相关',
     items: [
-      {
-        text: '<iconify-icon class="mg-ico" icon="mdi:account-key-outline"></iconify-icon>账号密码',
-        link: "/guide/commands/account",
-      },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:map-marker-radius"></iconify-icon>传送',
         link: "/guide/commands/teleport",
