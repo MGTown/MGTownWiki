@@ -70,14 +70,6 @@ export default [
         link: "/guide/client/skin",
       },
       {
-        text: '<iconify-icon class="mg-ico" icon="mdi:package-variant-closed"></iconify-icon>材质包',
-        link: "/guide/client/resourcepack",
-      },
-      {
-        text: '<iconify-icon class="mg-ico" icon="mdi:weather-sunset"></iconify-icon>光影',
-        link: "/guide/client/shaders",
-      },
-      {
         text: '<iconify-icon class="mg-ico" icon="mdi:virtual-reality"></iconify-icon>VR 游玩',
         link: "/guide/client/vivecraft",
       },
