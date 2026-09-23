@@ -115,7 +115,8 @@
 /* 青碧 —— 客户端相关（皮肤、材质包、光影同属一个分区，故同色） */
 .mg-ico[icon='mdi:palette-swatch-outline'],
 .mg-ico[icon='mdi:package-variant-closed'],
-.mg-ico[icon='mdi:weather-sunset'] {
+.mg-ico[icon='mdi:weather-sunset'],
+.mg-ico[icon='mdi:virtual-reality'] {
   color: var(--mg-c-teal);
 }
 

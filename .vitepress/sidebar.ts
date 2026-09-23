@@ -121,7 +121,7 @@ const gameplay: DefaultTheme.SidebarItem[] = [
   },
 ];
 
-/** 客户端相关：皮肤 / 材质包 / 光影 */
+/** 客户端相关：皮肤 / 材质包 / 光影 / VR */
 const client: DefaultTheme.SidebarItem[] = [
   {
     text: '<iconify-icon class="mg-ico" icon="mdi:palette-swatch-outline"></iconify-icon>客户端相关',
@@ -138,6 +138,10 @@ const client: DefaultTheme.SidebarItem[] = [
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:weather-sunset"></iconify-icon>光影',
         link: "/guide/client/shaders",
+      },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:virtual-reality"></iconify-icon>VR 游玩',
+        link: "/guide/client/vivecraft",
       },
     ],
   },
