@@ -125,11 +125,12 @@
   color: var(--mg-c-green);
 }
 
-/* 天青 —— 玩法与经营：玩法、商店、方块审计、货币、性能 */
+/* 天青 —— 玩法与经营：玩法、商店、方块审计、货币、性能、钓鱼 */
 .mg-ico[icon='mdi:gamepad-variant-outline'],
 .mg-ico[icon='mdi:storefront-outline'],
 .mg-ico[icon='mdi:backup-restore'],
 .mg-ico[icon='mdi:circle-multiple-outline'],
+.mg-ico[icon='mdi:fish'],
 .mg-ico[icon='mdi:speedometer'] {
   color: var(--mg-c-cyan);
 }

@@ -117,6 +117,10 @@ const gameplay: DefaultTheme.SidebarItem[] = [
           },
         ],
       },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:fish"></iconify-icon>趣味钓鱼',
+        link: "/guide/gameplay/fishing",
+      },
     ],
   },
 ];

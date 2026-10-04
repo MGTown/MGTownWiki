@@ -60,6 +60,10 @@ export default [
         text: '<iconify-icon class="mg-ico" icon="mdi:auto-fix"></iconify-icon>更多附魔',
         link: "/guide/gameplay/enchants/",
       },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:fish"></iconify-icon>趣味钓鱼',
+        link: "/guide/gameplay/fishing",
+      },
     ],
   },
   {
