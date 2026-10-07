@@ -87,6 +87,10 @@ export default [
         link: "https://qm.qq.com/q/JSzjMcoNKq",
       },
       {
+        text: '<iconify-icon class="mg-ico" icon="mdi:discord"></iconify-icon>加入 Discord',
+        link: "https://mgtown.cn/discord",
+      },
+      {
         text: '<iconify-icon class="mg-ico" icon="mdi:github"></iconify-icon>GitHub 组织',
         link: "https://github.com/MGTown/",
       },

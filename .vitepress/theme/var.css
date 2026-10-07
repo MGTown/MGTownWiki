@@ -38,6 +38,7 @@
   --mg-c-pink: #b95fc4;
   --mg-c-slate: #707886;
   --mg-c-qq: #12b7f5;
+  --mg-c-discord: #5865f2;
 }
 
 /* .dark 与 :root 同权重，靠源码顺序覆盖，故必须写在 :root 之后。
@@ -62,6 +63,7 @@
   --mg-c-pink: #d87ce3;
   --mg-c-slate: #9ba4b2;
   --mg-c-qq: #5ac9f6;
+  --mg-c-discord: #8b98f5;
 }
 
 /* ---------- 行内图标：顶部导航 / 侧边栏 / 首页 features 共用 ---------- */
@@ -164,4 +166,9 @@
 /* 腾讯蓝 —— QQ（贴合品牌色） */
 .mg-ico[icon='mdi:qqchat'] {
   color: var(--mg-c-qq);
+}
+
+/* 品牌靛紫 —— Discord（贴合品牌色） */
+.mg-ico[icon='mdi:discord'] {
+  color: var(--mg-c-discord);
 }
