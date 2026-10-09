@@ -70,6 +70,10 @@ export default [
     text: '<iconify-icon class="mg-ico" icon="mdi:palette-swatch-outline"></iconify-icon>客户端相关',
     items: [
       {
+        text: '<iconify-icon class="mg-ico" icon="mdi:laptop"></iconify-icon>客户端详情',
+        link: "/guide/client/client",
+      },
+      {
         text: '<iconify-icon class="mg-ico" icon="mdi:account-box-outline"></iconify-icon>皮肤设置',
         link: "/guide/client/skin",
       },
