@@ -66,7 +66,7 @@ const commands: DefaultTheme.SidebarItem[] = [
       },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:music-note"></iconify-icon>点歌',
-        link: "/guide/commands/allmusic",
+        link: "/guide/commands/musicplayer",
       },
       {
         text: '<iconify-icon class="mg-ico" icon="mdi:view-dashboard-outline"></iconify-icon>菜单',
