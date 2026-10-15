@@ -28,7 +28,7 @@ lang: zh-CN
 #### 模组详情
 > [!WARNING]
 >
-> 请勿自行删改标注【重要】的模组，会无法进入服务器！！！
+> 请勿自行删改标注** 【重要】 **的模组，会无法进入服务器！！！
 >
 > 请勿自行更新模组，有概率无法进入游戏！！！
 
@@ -37,70 +37,70 @@ lang: zh-CN
 
 ::: details 具体模组列表
   ::: details 默认关闭mod
-| 模组名                              | 作用               | 备注 |
-|:-----------------------------------:|:------------------:|:----:|
-| Tweakeroo                     | 客户端辅助功能 |              |
-| Litematica 投影               | 投影建造辅助   |              |
-| 迷你HUD (MiniHUD)             | 迷你信息HUD    |              |
+  | 模组名                              | 作用               | 备注 |
+  |:-----------------------------------:|:------------------:|:----:|
+  | Tweakeroo                     | 客户端辅助功能 |              |
+  | Litematica 投影               | 投影建造辅助   |              |
+  | 迷你HUD (MiniHUD)             | 迷你信息HUD    |              |
   :::
 
   ::: details 优化
-| 模组名                              | 作用               | 备注 |
-|:-----------------------------------:|:------------------:|:----:|
-| ImmediatelyFast                     | 实体方块渲染优化   |      |
-| Jasione                             | 通用性能优化       |      |
-| MoreCulling                         | 方块面剔除优化     |      |
-| Optimised Block Entities (OBE)      | 方块实体优化       |      |
-| ScalableLux                         | 光照引擎优化       |      |
-| zFastNoise                          | 噪声生成优化       |      |
-| BadOptimizations                    | 杂项性能优化       |      |
-| C2ME (C^2M 引擎)                    | 区块加载优化       |      |
-| Gnetum (HUD优化)                    | HUD 渲染优化       |      |
-| EntityCulling (实体渲染机制优化)    | 实体渲染剔除       |      |
-| AsyncLogger (异步日志)              | 异步日志记录       |      |
-| AsyncParticles (异步粒子)           | 粒子异步渲染       |      |
-| Faster Shadow Mapper (快速阴影渲染) | 阴影渲染优化       |      |
-| ModernFix (现代化修复)              | 修复兼容与性能     |      |
-| 钠 · 扩展 (Sodium Extra)            | 扩展视频设置       |      |
-| 钠 (Sodium)                         | 渲染性能优化       |      |
-| 锂 (Lithium)                        | 游戏逻辑优化       |      |
+  | 模组名                              | 作用               | 备注 |
+  |:-----------------------------------:|:------------------:|:----:|
+  | ImmediatelyFast                     | 实体方块渲染优化   |      |
+  | Jasione                             | 通用性能优化       |      |
+  | MoreCulling                         | 方块面剔除优化     |      |
+  | Optimised Block Entities (OBE)      | 方块实体优化       |      |
+  | ScalableLux                         | 光照引擎优化       |      |
+  | zFastNoise                          | 噪声生成优化       |      |
+  | BadOptimizations                    | 杂项性能优化       |      |
+  | C2ME (C^2M 引擎)                    | 区块加载优化       |      |
+  | Gnetum (HUD优化)                    | HUD 渲染优化       |      |
+  | EntityCulling (实体渲染机制优化)    | 实体渲染剔除       |      |
+  | AsyncLogger (异步日志)              | 异步日志记录       |      |
+  | AsyncParticles (异步粒子)           | 粒子异步渲染       |      |
+  | Faster Shadow Mapper (快速阴影渲染) | 阴影渲染优化       |      |
+  | ModernFix (现代化修复)              | 修复兼容与性能     |      |
+  | 钠 · 扩展 (Sodium Extra)            | 扩展视频设置       |      |
+  | 钠 (Sodium)                         | 渲染性能优化       |      |
+  | 锂 (Lithium)                        | 游戏逻辑优化       |      |
   :::
 
   ::: details 功能
-| 模组名                        | 作用           | 备注         |
-|:-----------------------------:|:--------------:|:------------:|
-| I18nAutoUpdateMod             | 自动更新汉化   |              |
-| mezz_config_gui               | 配置界面支持   |              |
-| JEI物品管理器                 | 查看物品配方   |              |
-| Xaero的世界地图               | 世界地图显示   |              |
-| Xaero的小地图                 | 小地图显示     |              |
-| 一键背包整理Next              | 一键整理背包   |              |
-| Iris 光影                     | 光影加载支持   |              |
-| 游戏内账号切换 (IAS)          | 游戏内切账号   |              |
-| 玉 🔍 (Jade)                  | 方块信息查看   |              |
-| 表情工艺 (Emotecraft)         | 玩家表情动作   |              |
-| 键位冲突显示 (Controlling)    | 键位冲突管理   |              |
-| 鼠标手势 (MouseTweaks)        | 鼠标物品整理   |              |
-| IMBlocker                     | 输入法冲突修复 |              |
-| CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
-| 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
+  | 模组名                        | 作用           | 备注         |
+  |:-----------------------------:|:--------------:|:------------:|
+  | I18nAutoUpdateMod             | 自动更新汉化   |              |
+  | mezz_config_gui               | 配置界面支持   |              |
+  | JEI物品管理器                 | 查看物品配方   |              |
+  | Xaero的世界地图               | 世界地图显示   |              |
+  | Xaero的小地图                 | 小地图显示     |              |
+  | 一键背包整理Next              | 一键整理背包   |              |
+  | Iris 光影                     | 光影加载支持   |              |
+  | 游戏内账号切换 (IAS)          | 游戏内切账号   |              |
+  | 玉 🔍 (Jade)                  | 方块信息查看   |              |
+  | 表情工艺 (Emotecraft)         | 玩家表情动作   |              |
+  | 键位冲突显示 (Controlling)    | 键位冲突管理   |              |
+  | 鼠标手势 (MouseTweaks)        | 鼠标物品整理   |              |
+  | IMBlocker                     | 输入法冲突修复 |              |
+  | CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
+  | 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
   :::
 
   ::: details 支持库
-| 模组名                   | 作用         | 备注 |
-|:------------------------:|:------------:|:----:|
-| Architectury API         | 跨平台 API   |      |
-| Cloth Config             | 配置界面库   |      |
-| Fabric API               | Fabric 核心库 |      |
-| Fabric Language Kotlin   | Kotlin 支持  |      |
-| Konkrete                 | UI 配置库    |      |
-| libIPN                   | 背包整理库   |      |
-| MaLiLib                  | 客户端功能库 |      |
-| Melody                   | 音频加载库   |      |
-| mezz_config              | 配置库       |      |
-| PlayerAnimationLibMerged | 玩家动画库   |      |
-| Searchables              | 搜索功能库   |      |
-| zconfig                  | 配置库       |      |
+  | 模组名                   | 作用         | 备注 |
+  |:------------------------:|:------------:|:----:|
+  | Architectury API         | 跨平台 API   |      |
+  | Cloth Config             | 配置界面库   |      |
+  | Fabric API               | Fabric 核心库 |      |
+  | Fabric Language Kotlin   | Kotlin 支持  |      |
+  | Konkrete                 | UI 配置库    |      |
+  | libIPN                   | 背包整理库   |      |
+  | MaLiLib                  | 客户端功能库 |      |
+  | Melody                   | 音频加载库   |      |
+  | mezz_config              | 配置库       |      |
+  | PlayerAnimationLibMerged | 玩家动画库   |      |
+  | Searchables              | 搜索功能库   |      |
+  | zconfig                  | 配置库       |      |
   :::
 
   ::: details 美化
