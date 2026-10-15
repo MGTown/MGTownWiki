@@ -25,13 +25,103 @@ lang: zh-CN
 
 #### 模组相关
 
-客户端内置优化模组和部分功能模组，tweakeroo，投影和minihud默认为关闭状态，可自行在PCL->版本设置->Mod管理  中启用
+> [!WARNING]
+>
+> 请勿自行删改标注【重要】的模组，会无法进入服务器！！！
+>
+> 请勿自行更新模组，有概率无法进入游戏！！！
+
+客户端内置优化模组和部分功能模组，部分模组默认为关闭状态，可自行在PCL->版本设置->Mod管理  中启用
+
+#### 模组相关
 
 > [!WARNING]
 >
 > 请勿自行删改标注【重要】的模组，会无法进入服务器！！！
 >
 > 请勿自行更新模组，有概率无法进入游戏！！！
+
+客户端内置优化模组和部分功能模组，部分模组默认为关闭状态，可自行在 PCL->版本设置->Mod管理 中启用
+
+::: details 具体模组列表
+::: details 优化
+| 模组名 | 作用 | 启用状态 | 备注 |
+|:------:|:----:|:--------:|:----:|
+| ImmediatelyFast | 优化 | 启用 | |
+| Ixeris | 优化 | 关闭 | 默认禁用 |
+| Jasione | 优化 | 启用 | |
+| MoreCulling | 优化 | 启用 | |
+| Optimised Block Entities (OBE) | 优化 | 启用 | |
+| ScalableLux | 优化 | 启用 | |
+| zFastNoise | 优化 | 启用 | |
+| BadOptimizations | 优化 | 启用 | |
+| C2ME (C^2M 引擎) | 优化 | 启用 | |
+| Gnetum (HUD优化) | 优化 | 启用 | |
+| EntityCulling (实体渲染机制优化) | 优化 | 启用 | |
+| AsyncLogger (异步日志) | 优化 | 启用 | |
+| AsyncParticles (异步粒子) | 优化 | 启用 | |
+| Faster Shadow Mapper (快速阴影渲染) | 优化 | 启用 | |
+| ModernFix (现代化修复) | 优化 | 启用 | |
+| 钠 · 扩展 (Sodium Extra) | 优化 | 启用 | |
+| 钠 (Sodium) | 优化 | 启用 | |
+| 锂 (Lithium) | 优化 | 启用 | |
+:::
+
+::: details 功能
+| 模组名 | 作用 | 启用状态 | 备注 |
+|:------:|:----:|:--------:|:----:|
+| I18nAutoUpdateMod | 功能 | 启用 | |
+| mezz_config_gui | 功能 | 启用 | |
+| Tweakeroo | 功能 | 启用 | |
+| JEI物品管理器 | 功能 | 启用 | |
+| Xaero的世界地图 | 功能 | 启用 | |
+| Xaero的小地图 | 功能 | 启用 | |
+| 一键背包整理Next | 功能 | 启用 | |
+| Iris 光影 | 功能 | 启用 | |
+| Litematica 投影 | 功能 | 启用 | |
+| 游戏内账号切换 (IAS) | 功能 | 启用 | |
+| 玉 🔍 (Jade) | 功能 | 启用 | |
+| 表情工艺 (Emotecraft) | 功能 | 启用 | |
+| 迷你HUD (MiniHUD) | 功能 | 启用 | |
+| 键位冲突显示 (Controlling) | 功能 | 启用 | |
+| 鼠标手势 (MouseTweaks) | 功能 | 启用 | |
+| IMBlocker | 输入法冲突修复 | 启用 | |
+| CE JEI支持 (ceclientmod) | 功能 | 启用 | 【重要】 |
+| 自定义图片 (ImageFrameClient) | 功能 | 启用 | 【重要】 |
+:::
+
+::: details 支持库
+| 模组名 | 作用 | 启用状态 | 备注 |
+|:------:|:----:|:--------:|:----:|
+| Architectury API | 支持库 | 启用 | |
+| Cloth Config | 支持库 | 启用 | |
+| Fabric API | 支持库 | 启用 | |
+| Fabric Language Kotlin | 支持库 | 启用 | |
+| Konkrete | 支持库 | 启用 | |
+| libIPN | 支持库 | 启用 | |
+| MaLiLib | 支持库 | 启用 | |
+| Melody | 支持库 | 启用 | |
+| mezz_config | 支持库 | 启用 | |
+| PlayerAnimationLibMerged | 支持库 | 启用 | |
+| Searchables | 支持库 | 启用 | |
+| zconfig | 支持库 | 启用 | |
+:::
+
+::: details 美化
+| 模组名 | 作用 | 启用状态 | 备注 |
+|:------:|:----:|:--------:|:----:|
+| 3D 皮肤层 (Skin Layers 3D) | 美化 | 启用 | |
+| 万用皮肤补丁 (CustomSkinLoader) | 美化 | 启用 | |
+| 模组菜单 (Mod Menu) | 美化 | 启用 | |
+| 聊天头像 (Chat Heads) | 美化 | 启用 | |
+| 自定义UI (FancyMenu) | 美化 | 启用 | |
+| 自定义游戏加载界面 (Drippy Loading Screen) | 美化 | 启用 | |
+:::
+|
+:::
+:::
+
+
 
 #### 模组问题
 
