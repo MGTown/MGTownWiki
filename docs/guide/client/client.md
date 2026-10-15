@@ -117,8 +117,6 @@ lang: zh-CN
 | 自定义UI (FancyMenu) | 美化 | 启用 | |
 | 自定义游戏加载界面 (Drippy Loading Screen) | 美化 | 启用 | |
 :::
-|
-:::
 :::
 
 
