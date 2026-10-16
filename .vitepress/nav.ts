@@ -64,6 +64,10 @@ export default [
         text: '<iconify-icon class="mg-ico" icon="mdi:fish"></iconify-icon>趣味钓鱼',
         link: "/guide/gameplay/fishing",
       },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:bow-tie"></iconify-icon>饰品',
+        link: "/guide/gameplay/curios",
+      },
     ],
   },
   {
