@@ -72,23 +72,25 @@ lang: zh-CN
   :::
 
   ::: details 功能
-  | 模组名                        | 作用           | 备注         |
-  |:-----------------------------:|:--------------:|:------------:|
-  | I18nAutoUpdateMod             | 自动更新汉化   |              |
-  | mezz_config_gui               | 配置界面支持   |              |
-  | JEI物品管理器                 | 查看物品配方   |              |
-  | Xaero的世界地图               | 世界地图显示   |              |
-  | Xaero的小地图                 | 小地图显示     |              |
-  | 一键背包整理Next              | 一键整理背包   |              |
-  | Iris 光影                     | 光影加载支持   |              |
-  | 游戏内账号切换 (IAS)          | 游戏内切账号   |              |
-  | 玉 🔍 (Jade)                  | 方块信息查看   |              |
-  | 表情工艺 (Emotecraft)         | 玩家表情动作   |              |
-  | 键位冲突显示 (Controlling)    | 键位冲突管理   |              |
-  | 鼠标手势 (MouseTweaks)        | 鼠标物品整理   |              |
-  | IMBlocker                     | 输入法冲突修复 |              |
-  | CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
-  | 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
+| 模组名                        | 作用           | 备注         |
+|:-----------------------------:|:--------------:|:------------:|
+| I18nAutoUpdateMod             | 自动更新汉化   |              |
+| mezz_config_gui               | 配置界面支持   |              |
+| JEI物品管理器                 | 查看物品配方   |              |
+| Xaero的世界地图               | 世界地图显示   |              |
+| Xaero的小地图                 | 小地图显示     |              |
+| 一键背包整理Next              | 一键整理背包   |              |
+| Iris 光影                     | 光影加载支持   |              |
+| 游戏内账号切换 (IAS)          | 游戏内切账号   |              |
+| 玉 🔍 (Jade)                  | 方块信息查看   |              |
+| 表情工艺 (Emotecraft)         | 玩家表情动作   |              |
+| 键位冲突显示 (Controlling)    | 键位冲突管理   |              |
+| 鼠标手势 (MouseTweaks)        | 鼠标物品整理   |              |
+| IMBlocker                     | 输入法冲突修复 |              |
+| CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
+| 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
+| 反作弊(AntiCheatSync) | 反作弊插件 | 【重要】 |
+| 音乐播放器(musicplayer) | 音乐播放器 | 【重要】 |
   :::
 
   ::: details 支持库
