@@ -125,6 +125,10 @@ const gameplay: DefaultTheme.SidebarItem[] = [
         text: '<iconify-icon class="mg-ico" icon="mdi:bow-tie"></iconify-icon>饰品',
         link: "/guide/gameplay/curios",
       },
+      {
+        text: '<iconify-icon class="mg-ico" icon="mdi:pot-steam"></iconify-icon>农夫乐事',
+        link: "/guide/gameplay/Farmer's Delight",
+      },
     ],
   },
 ];
