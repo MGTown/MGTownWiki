@@ -39,13 +39,13 @@ lang: zh-CN
 
 当然，如果任何地方都找不到这些难以捉摸的植物，也可以采取一些其他的方法：比如村民的箱子里就可能包含新作物的样本或种子，或者，也可以在沉船里发现一些植物遗留。
 
-![[FD]农夫乐事 (Farmer's Delight)-第3张图片](https://i.mcmod.cn/editor/upload/20221006/1665052781_250221_djSF.webp)
+![[FD]农夫乐事 (Farmer's Delight)-第3张图片](/imgs/Farmer's Delight/1665052781_250221_djSF.webp)
 
 模组目前添加了：[卷心菜](https://www.mcmod.cn/item/382032.html)、[番茄](https://www.mcmod.cn/item/382033.html)、[洋葱](https://www.mcmod.cn/item/382034.html)、[稻米](https://www.mcmod.cn/item/382036.html)四种新的作物，还有诸多原版作物的变种。
 
 不要认为内容太少，看看这琳琅满目的美食佳肴，本模组的质量可以保证，更不用说数量众多的附属模组了。
 
-| ![[FD]农夫乐事 (Farmer's Delight)-第4张图片](https://i.mcmod.cn/editor/upload/20221004/1664890977_250221_UajK.webp) | ![[FD]农夫乐事 (Farmer's Delight)-第5张图片](https://i.mcmod.cn/editor/upload/20250521/1747770942_56141_iBMZ.webp) |
+| ![[FD]农夫乐事 (Farmer's Delight)-第4张图片](/imgs/Farmer's Delight/1664890977_250221_UajK.webp) | ![[FD]农夫乐事 (Farmer's Delight)-第5张图片](/imgs/Farmer's Delight/1747770942_56141_iBMZ.webp) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 本模组添加的食物（部分）                                     | 本模组的主要食物                                             |
 
@@ -67,7 +67,7 @@ lang: zh-CN
 
   刀和原版工具一样可以使用不同材料合成，但是注意，模组并没有添加木刀和石刀以作为早期的刀具，取而代之的是燧石刀。所以，是时候去挖些沙砾了。
 
-  ![[FD]农夫乐事 (Farmer's Delight)-第6张图片](https://i.mcmod.cn/editor/upload/20221004/1664887463_250221_YCHv.webp)本 Mod 中的 5 种刀
+  ![[FD]农夫乐事 (Farmer's Delight)-第6张图片](/imgs/Farmer's Delight/1664887463_250221_YCHv.webp)本 Mod 中的 5 种刀
 
 - **厨房套件：**
 
@@ -75,7 +75,7 @@ lang: zh-CN
 
 - **热源**：厨锅和煎锅可不能凭空将生食变熟，它们需要被放置在热源上面。篝火，燃烧着的火，岩浆块，甚至是熔岩都可以作为热源（不过，要阻止熔岩的流动，小心熔岩摧毁了你的厨房）。不必担心不够美观，厨锅和煎锅会自动生成一个架子，让一切看起来十分和谐。当然，如果还是不满意，或许农夫乐事添加的[**炉灶**](https://www.mcmod.cn/item/381999.html)是一个更好的选择。这个富有乡土风情的方块既可以充当热源，又可以提供照明，更重要的是可以为你的厨房增光添彩。
 
-  ![[FD]农夫乐事 (Farmer's Delight)-第7张图片](https://i.mcmod.cn/editor/upload/20221004/1664889655_250221_aIBy.webp)厨锅和煎锅放置在不同热源上的样子，中间为炉灶
+  ![[FD]农夫乐事 (Farmer's Delight)-第7张图片](/imgs/Farmer's Delight/1664889655_250221_aIBy.webp)厨锅和煎锅放置在不同热源上的样子，中间为炉灶
 
 - **[煎锅](https://www.mcmod.cn/item/595165.html)**：煎锅可以用于简单处理食物，比如煎鸡蛋或将肉烤熟。副手拿着食物，主手拿着煎锅靠近热源，然后按住右键稍等一会，食物就熟了。你也可以潜行右击将煎锅放在热源上面，这样只需将食物右键放入就可以安心离开。不过注意，做好的食物会以掉落物的形式从煎锅中弹出来，所以还是不要离开太久为好；
 
@@ -85,7 +85,7 @@ lang: zh-CN
 
   部分食物需要碗来盛装，可以在厨锅中如果放入碗（8 号位置），那些需要盛装的食物会被自动盛装到碗中，不用担心，即使被盛装后，食物依然会保留在厨锅中（9 号位置），等待取用。
 
-  ![[FD]农夫乐事 (Farmer's Delight)-第8张图片](https://i.mcmod.cn/editor/upload/20221007/1665143069_250221_city.webp)
+  ![[FD]农夫乐事 (Farmer's Delight)-第8张图片](/imgs/Farmer's Delight/1665143069_250221_city.webp)
 
 ## 二. 末地乐事
 
@@ -105,13 +105,13 @@ lang: zh-CN
 
 是啤酒与一些食物的合成方块。
 
-![发酵桶-第1张图片](https://i.mcmod.cn/editor/upload/20220705/1656976429_91492_TrpN.webp)
+![发酵桶-第1张图片](/imgs/Farmer's Delight/1656976429_91492_TrpN.webp)
 
 温度状态
 
 本模组中，不同的食物、饮品的制作有不同的温度需求，而模组中啤酒桶共有五种温度状态：寒冷（frigid）、冷（cold）、常温（normal）、温暖（warm）、热（hot）（按顺序与下图的五种颜色对应）。改变啤酒桶的温度状态需要在以啤酒桶为中心的 3*3*3 空间中按数量摆放对应方块（流体）。
 
-![发酵桶-第2张图片](https://i.mcmod.cn/editor/upload/20220719/1658230675_76118_Phaw.webp)
+![发酵桶-第2张图片](/imgs/Farmer's Delight/1658230675_76118_Phaw.webp)
 
 **冷冻**
 
@@ -121,11 +121,11 @@ lang: zh-CN
 
 冷（cold）状态需要在规定空间中有五到八个冷冻方块，如下图。（1.19-2.0 版本中只需要 2-4 个）
 
-![发酵桶-第3张图片](https://i.mcmod.cn/editor/upload/20220719/1658231691_76118_tYGQ.webp)
+![发酵桶-第3张图片](/imgs/Farmer's Delight/1658231691_76118_tYGQ.webp)
 
-此时打开 GUI 界面会发现状态栏改变。![发酵桶-第4张图片](https://i.mcmod.cn/editor/upload/20220719/1658232097_76118_IhqF.webp)
+此时打开 GUI 界面会发现状态栏改变。![发酵桶-第4张图片](/imgs/Farmer's Delight/1658232097_76118_IhqF.webp)
 
-寒冷（frigid）状态需要在规定空间中有至少九个冷冻方块，如下图，满足条件后状态栏同样也会改变。（1.19-2.0 版本中只需要大于等于 5 个）![发酵桶-第5张图片](https://i.mcmod.cn/editor/upload/20220719/1658231871_76118_xXyN.webp)
+寒冷（frigid）状态需要在规定空间中有至少九个冷冻方块，如下图，满足条件后状态栏同样也会改变。（1.19-2.0 版本中只需要大于等于 5 个）![发酵桶-第5张图片](/imgs/Farmer's Delight/1658231871_76118_xXyN.webp)
 
 **受热**
 
@@ -133,9 +133,9 @@ lang: zh-CN
 
 **热源**是本模组给出的带有 **hot_blocks** 标签的方块，默认情况下包括：农夫乐事提供的 farmersdelight:tray_heat_sources 标签与 farmersdelight:heat_sources 标签下的方块，具体内容可以参考[厨锅](https://www.mcmod.cn/item/382007.html)的介绍，也可以在模组文件 hot_blocks.json 中或农夫乐事的相关文件中手动添加。
 
-温暖（hot）状态需要在规定空间中有五到八个热源。（1.19-2.0 版本中只需要 2-4 个）![发酵桶-第6张图片](https://i.mcmod.cn/editor/upload/20220719/1658232336_76118_neyF.webp)
+温暖（hot）状态需要在规定空间中有五到八个热源。（1.19-2.0 版本中只需要 2-4 个）![发酵桶-第6张图片](/imgs/Farmer's Delight/1658232336_76118_neyF.webp)
 
-热（hot）状态需要在规定空间中有至少九个热源。（1.19-2.0 版本中只需要大于等于 5 个）![发酵桶-第7张图片](https://i.mcmod.cn/editor/upload/20220719/1658232392_76118_ljXy.webp)
+热（hot）状态需要在规定空间中有至少九个热源。（1.19-2.0 版本中只需要大于等于 5 个）![发酵桶-第7张图片](/imgs/Farmer's Delight/1658232392_76118_ljXy.webp)
 
 ## 四. 烧烤乐事
 
