@@ -89,8 +89,8 @@ lang: zh-CN
 | IMBlocker                     | 输入法冲突修复 |              |
 | CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
 | 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
-| 反作弊(AntiCheatSync) | 反作弊插件 | 【重要】 |
-| 音乐播放器(musicplayer) | 音乐播放器 | 【重要】 |
+| 反作弊(AntiCheatSync) | 反作弊插件 | **【重要】** |
+| 音乐播放器(musicplayer) | 音乐播放器 | **【重要】** |
   :::
 
   ::: details 支持库
@@ -214,6 +214,7 @@ lang: zh-CN
 6. 在部分版本中，[Better Block Entities](https://www.mcmod.cn/class/23120.html "Better Block Entities") 模组可能会和 [实体模型特性](https://www.mcmod.cn/class/9909.html "实体模型特性")/[实体纹理特性](https://www.mcmod.cn/class/5862.html "实体纹理特性") 模组发生冲突。    **解决：**在 BBE 的配置界面关闭对应方块实体的优化。
 
 7. 在 1.20.1Forge 版本中，[镭](https://www.mcmod.cn/class/5580.html "镭")和 [C2meF](https://www.mcmod.cn/class/21774.html) 冲突，表现为部分区块不加载。    **解决：**禁用 C2meF 或镭。
+8. 在服务器中[JEI](https://www.mcmod.cn/class/459.html)偶尔会表现出不稳定，导致服务器掉线问题出现。    **解决：**禁用JEI和ceclientmod
 
 ## 资源包相关
 - 客户端已安装i18nm模组,但是由于fabric模组汉化进度较慢,仍然会出现未完全汉化的情况
