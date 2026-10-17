@@ -87,6 +87,7 @@ lang: zh-CN
 | 键位冲突显示 (Controlling)    | 键位冲突管理   |              |
 | 鼠标手势 (MouseTweaks)        | 鼠标物品整理   |              |
 | IMBlocker                     | 输入法冲突修复 |              |
+| 苹果皮                     | 显示饱和度 |              |
 | CE JEI支持 (ceclientmod)      | CE与JEI支持    | **【重要】** |
 | 自定义图片 (ImageFrameClient) | 自定义图片显示 | **【重要】** |
 | 反作弊(AntiCheatSync) | 反作弊插件 | **【重要】** |
@@ -119,6 +120,7 @@ lang: zh-CN
   | 聊天头像 (Chat Heads)                      | 聊天显示头像   |      |
   | 自定义UI (FancyMenu)                       | 自定义主菜单   |      |
   | 自定义游戏加载界面 (Drippy Loading Screen) | 自定义加载界面 |      |
+  | 方块连接纹理 (Drippy Loading Screen) | 自定义加载界面 |      |
   :::
 :::
 
